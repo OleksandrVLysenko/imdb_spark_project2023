@@ -11,7 +11,7 @@ def task6(path6, path_to_save6, path6add_basics):
     # Creation of SparkSession (the entrypoint of the PySpark application)
     spark_session = (SparkSession.builder
                      .master("local")
-                     .appName("task 6")
+                     .appName("Task 6")
                      .config(conf=SparkConf())
                      .getOrCreate())
 
