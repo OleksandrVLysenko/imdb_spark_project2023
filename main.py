@@ -2,6 +2,9 @@ from task1 import task1
 from task2 import task2
 from task3 import task3
 from task4 import task4
+from task6 import task6
+
+
 
 def main():
     # # Task 1
@@ -26,6 +29,18 @@ def main():
     path4add_title = r"imdb_data\title.basics.tsv.gz"
     task4(path4, path_to_save4, path4add_name, path4add_title)
 
+    # # Task 5
+    # path_to_save4 = "task_results\\Task4\\"
+    # path4 = r"imdb_data\title.principals.tsv.gz"
+    # path4add_name = r"imdb_data\name.basics.tsv.gz"
+    # path4add_title = r"imdb_data\title.basics.tsv.gz"
+    # task4(path4, path_to_save4, path4add_name, path4add_title)
+
+    # Task 6
+    path_to_save6 = "task_results\\Task6\\"
+    path6 =  r"imdb_data\title.episode.tsv.gz"
+    path6add_basics =  r"imdb_data\title.basics.tsv.gz"
+    task6(path6, path_to_save6, path6add_basics)
 
 if __name__ == "__main__":
     main()

@@ -4,7 +4,6 @@ import pyspark.sql.types as t
 from datetime import date
 import pyspark.sql.functions as f
 
-
 def task4(path4, path_to_save4, path4add_name, path4add_title):
     # function for solving task4
     # path4 - input path
